@@ -4,7 +4,7 @@ library(openxlsx)
 library(rgplates)
 
 #set working directory
-wd = "/Users/moba692/Documenting_R/GPlates_R_for_Biologists"
+wd = "~/Github/PhD_Masafumi/Rdocs/biogeoareas/"
 setwd(wd)
 
 fn = "world_area_points_v1.xlsx"
