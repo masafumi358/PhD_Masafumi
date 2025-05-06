@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.base.evolution.alignment:beast.pkgmgmt:beast.base.core:beast.base.inference:beast.base.evolution.tree.coalescent:beast.pkgmgmt:beast.base.core:beast.base.inference.util:beast.evolution.nuc:beast.base.evolution.operator:beast.base.inference.operator:beast.base.evolution.sitemodel:beast.base.evolution.substitutionmodel:beast.base.evolution.likelihood" required="BEAST.base v2.7.7" version="2.7">
+
+    <data
+id="Drosera_matK_msl"
+spec="Alignment"
+name="alignment">
+        <sequence id="seq_Drosera_adelae" spec="Sequence" taxon="Drosera_adelae" totalcount="4" value="-------------------------------------------------------caggacaaattgtcccatttaaattctatcttaaatatagtgatagcctacccggtccatctggaaatattgattcaaaatatttggtattgggtgaaagatgccccttctttgcattttttacgattccttctttacaaatatcgtaattgggatagaaagagtcttcttttttcaaagcaattcatttttagtctttcaaaaaggaatcaaagattttttttctttctatataattcctatctatgtgaatacgaatacatccttctatttcttctcaaccaatgctctcatttacgattaaccgtttatggagcccttattgagagaatttctttctctggaaagatggaagat------cttgtaaaaggttttcgtaagaattctcagataatccgatggtttttccaggatcctttcatgcattatgttaggtatcaaggaagatccattattgcttcaaaagggacatctattctgataaataaatggagaaagtaccttgttaatttgtggcaattttatttttctgtctggtcgaaaccaaaaagaatctatatcaatcaactattaagatcttccttctacttttactttatggattttatttcaagtctccgacgaaatccttcgataatacgaagtcaaatgttagaaaattcatttttaatagagagtgctat------taaaaagttcgataccctagtttcaattactcctctgattggatcattgacaaaaacgaaattttgtaagggcttaggacatcccattagtaagccggcttggtccgatttgtcagattctgagattattaaccgatttagtcgtatatgcagaagtctttctcattattacagcggatcctcaagaaaaaggagg-tggatcgaatacggtat---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+        <sequence id="seq_Drosera_aliciae" spec="Sequence" taxon="Drosera_aliciae" totalcount="4" value="------------------------acgatcaattcattcaatctttccatttttcgaggacaaattgtctcatttaaattatatgttaaatatactgatagcttatccggtccatttggaaatattggttcaaaatcttcgatattgggtgaaagatgccccttctttgcattttttacgattccttatttacgaatatcgtaattggaatagaaagagtattcttttttcaaagcaattcatttctagtttttcaaaaaggaatcaaagattctttttatttctatataattcctatctatgtgaatatgaatccatccttttttttcttcgcaaccaatgctatcacttacgatcaaccttttatggagcccttattgagagaatatttttctatggaaagatggaagat------cttgtaaaaggttttcgtaagaattttcagataatccgatggtttttccaggatcctttcatgcattatgttaggtatcaaggaagatccattattgctttaaaagggacatctcttttgataaataaatggagaaattatcttgttaatttgtggcaattttatttttatgtctggtcgcaaccaaaaagaatctatatcactcaattattaatatcttccttc------tactttatgggttttttttcaagtctagggcgaaatccttcgatgatacggagtcaaatgttaaaaaattcatttttaatagaaaatgctattaaaaatgaaaagttcgataccctagttccaagtagtcctttgattggatcattaacaaaaacgagattatgtaacagcttaggacatcccattagtaagtcggcttgggcccatttttcagattctgagattattaaccgatttagtcgtatatgcagaagtctttctcattattacatgggatcttcaagaaaaaggaggttgtatcgaatacagtatatacttcgactttcttgtgctaaaactttgtcgcgtaaacacaaaagtactgtacatacttttttgaaacgattaggttcagattttttggaagaattctttacagaggcaagaaaaagtgctttctttcattgtacraaga-----------------------------------------------------------------------------"/>
+        <sequence id="seq_Drosera_anglica" spec="Sequence" taxon="Drosera_anglica" totalcount="4" value="------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------attccttatttacgaatatcgtaattggaatagaaagggtcttcttttttcaaatcaattcatttctagtttttcaaaaaggaatcaaagattatttttatttctatttaattcctatctatgtgaatacgaatccatccttctttttcttcgcaaccaatgctatcacttacgatcaaccttttatggagcccttattgagagaatctttttctatggaaagatggaagat------cttgtaaaaggctttcgtaagaattttcagataatccgatggtttttccaggatcctttcatgcattatgttaggtatcaaggaagatccattattgcttcaaaagggacatctcttctgataaataaatggagaaattaccttgttaatttttggcaattttatttttatgtatggtcgcaaccaaaaagaatctatatcaatcaactattaaaatcttccttc------tactttatgggttttttttcaagtctagggcgaaatccttcgatcatacggagtcaaatgttaaaaaattcatttttaatagaaaatgctattaaaaataaaaagttcgataccgtagttccaagtagtcctttggttggatcattaacaaaaacgagattatgtaacagcttaggacatcccattagtaagttggcttgggcccatttttcagattatgatattattaaccgatttagtcgtatatgcagaagtctttctcattattacatgggatcttcaagaaaaaggaggttgtatcgaatacagtatatac-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+        <sequence id="seq_Drosera_binata" spec="Sequence" taxon="Drosera_binata" totalcount="4" value="----------------------------------------------------------------------------------------------------------------------------------------------------------------tcttctttgcattttttacgattccttctttataagtctcgtaattggaatcgaaagggtcttctttttcctaagcaatttatttctagtttttcaaaaaggaatcaaagattttttttctttctatataattcgtatgtatgtgaatacgaatccatccttgtagttctccgcaaccaatcttctcatttacgaccaactttttatatagcccttcttgagcgagtctctttctatggaaagatggaacat------cttggaaaagactttcggaagaattttcagataatccgatggttcttccgggatcctttcatgcattatgttagatatcaaggaaaatgcattatggcttcaaaagggacatctcttctgataaataaatggataaattaccttctcaatttgtggcaattttctttttctgtgtgggcgcaaccaagaagaatcgagatcaatcaactattaaaaatttccttt------aactttatgggttttttttcaagtctacgattaaatccttcgagggtacggagtcaaatggtagaaaattcatttttaatagataatgctat------taaaaaattcgataccctagttccaagtattcctctgataggatcattgacgaaagcaaaattttgtaacggcttaggacatcccattagtaagccgacctggaccgatttgtcagattctgatattattgaccgatttagtsatatatgcagaagtctttctcattcmttaagcggatcttcagaaaaaaggagtttgt-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+        <sequence id="seq_Drosera_brevifolia" spec="Sequence" taxon="Drosera_brevifolia" totalcount="4" value="-------------------------------------------------------------------------------------------------------------------------------------------------------aaagatgccccttctttgcattttttacgattccttatttacgaatatcgtaattggaatagaaagggtcttcttttttcaaagcaattcatttctagtttttcaaaaaggaatcaaagattctttttatttctatataattcctatctatgtgaatacgaatccatccttctttttcttcgcaaccaatgctatcacttacgatcaaccttttatggagcccttattgagagaatctttttctatggaaagatggaagatcttgtacttgtaaaaggctttcgtaataattttcagataattcgatggtttttccaggatcctttcatgcattatgttaggtatcaaggaagatccattattgcttcaaaagggacatctcttctgataaataaatggagaaattaccttgttaatttgtggcaattttatttttatgtatggtcgcaaccaaaaagaatctatatcaatcaactattaatatcttccttc------tactttatgggttttttttcaagtctagggcgaaatccttcgatgatacggagtcaaatgttaaacaattcatttttaatagaaaattctattaaaaataaaaggttcgataccgtagttccaagtagtcctttgattggatcattaacaaaaatgagattatgtaacagcttaggacatcccattagtaagttggcttgggcccatttttcagattctgagattattaaccgatttagtcgtatatgcagaagtctttctcattattacatg------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+        <sequence id="seq_Drosera_burmannii" spec="Sequence" taxon="Drosera_burmannii" totalcount="4" value="-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------tcatttctagttttcaaaaaaggagtcaaagattctttttctttctatataattcctatctatgtgaatacgaatccatccttctatttcttcgcaatcaatccgatcatttacgatcaaccttttatggagcccttattgagagaatatttttatatggaaagatagaacat------cttgtaaaaggctttcggaaaaattttccgataatccgatggtttttccaggatcctttcatgcattatgttaggtatcaaggaaaatgcattatggcttcaaaagggacatctcttctgataaataaatggagaaattaccttatttttttgtggcaattttatttttctgtgtggtcgcaaccaagaaaaatctatatcactcaactattaaaatattccttc------gactttatgggttttctttcaagtatagaactaaatccttcgatcgtacggattcaaatgttagaaaattcatttttaatagagaatgctat------taaaaagttcgataccctagttccaaggattcctctgattggatcattgacaaaagcgaaattttgtaatggtttaggacatcccattagtaagctggcttgggcctatttatcagattctgaaattattgaccgatttagtcgtatatgcagaagtctttctcattattacagcggatcttcaagaaaaaggaggttgtatcgaatacagtatatacttcgactttct------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+        <sequence id="seq_Drosera_capensis" spec="Sequence" taxon="Drosera_capensis" totalcount="4" value="-----------------------------------------------------------------------------------------------------------------------------------aaattcttcgatattgggtgaaagatgccccttctttgcattttttacgattccttatttacgaatatcgtaattggaatagaaagagtattcttttttcagagcaattcatttatagtttttcaaaaaggaatcaaagattctttttatttctatataattcctatctatgtgaatatgaatccatccttctttttcttcccaaccaatgctatcacttacgatcaaccttttatggagcccttattgagagaatatttttctatcgaaagatggaagat------cttgtaaaaggctttcgtaagaattttcagataatccgatggtttttccaggatcctttcatgcattatgttaggtatcaaggaagatccattattgcttcaaaagggacatctcttttgataaataaatggagaaattatcttgttaatttgtggcaattttatttttctgtctggtcgcaaccaaaaagaatctatatcactcaactattaatatcttccttc------tactttatgggttttttttcaagtctagggcgaaatccttcgatgatacgtagtcaaatgttaaaaaattcatttttaatagaaaatgctattaaaaataaaaagttcgataccctagttccaagtagtcctttgatgggatcattaacaaaaacgagattatgtaacagcttaggacatcccattagtaagtcggcttgggcccatttttcagattctgagattattaaccgatttagtcgtatatgcaaaagtatttctcattattacatgggatcttcaagaaaaagtag---gtatcgaatacaatatatacttcgactttcttgtgctaaaactttg---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+        <sequence id="seq_Drosera_capillaris" spec="Sequence" taxon="Drosera_capillaris" totalcount="4" value="-------------------------agatcaattcattcaatctttccatttttcgaggacaaattgtctcatttaaattatatgttaaatatactgatagcttacccggtccattttgaaatattggttcaaaatcttcgatattgggtgaaagatgccccttctttgcattttttacgattccttatttacgaatatcgtaattggaatagaaagggtcttcttttttcaaagcaattcatttctagtttttcaaaaaggaatcaaagattctttttatttctatataattcctatctatgtgaatacgaatccatccttctttttcttcgcaaccaatgctatcacttacgatcaaccttttatggagcccttattgagagaatctttttctatggaaagatggaagatcttgtacttgtaaaaggctttcgtaataattttcagataattcgatggtttttccaggatcctttcatgcattatgttaggtatcaaggaagatccattattgcttcaaaagggacatctcttctgataaataaatggagaaattaccttgttaatttgtggcaattttatttttatgtatggtcgcaaccaaaaagaatccatatcaatcaactattaatatcttccttc------tactttatgggttttttttcaagtctagggcgaaatccttcgatgatacggagtcaaatgttaaacaattcatttttaatagaaaattctattaaaaataaaaggttcgataccgtagttccaagtagtcctttgattggatcattaacaaaaacgagattatgtaacagcttaggacatcccattagtaagttggcttgggcccatttttcagattctgagattattaaccgatttagtcgtatatgcagaagtctttctcattattacatgggatcttcaagaaaaaggaggttgtatcgaatacagtatatacttcgactttcttgtgctaaaactttgtcgcgtaaacacaaaagtactgtgcatacttttntgaaacgattaggttcagattttttggaagaattctttacagaggcaagaaaaagtgctttctttcattgtaccaagagattcttttatttcagag-----------------------------------------------------------"/>
+        <sequence id="seq_Drosera_communis" spec="Sequence" taxon="Drosera_communis" totalcount="4" value="------------------------------------------------------------caaattgtctcatttaaattatatgttaaatatactgatagcttacccggtccatttcgaaatattggttcaaaatcttcgatattgggtgaaagataccgcttctttgcattttttacgattccttatttacgaatatcgtaattggaatacaaagagtcttcttttttcaaagcaattcatttctattttttcaaaaaggaatcaaagattctttttatttctatataattcctatctatgtgaatacgaatccatccttctttttcttcgcaaccaatgctatcacttacgatcaaccttttatggagccctttttgagagaatctttttctatggaaagatggaagat------cttgtaaaaggctttcgtaagaattttcagataatccgatggtttttccaggatcctttcatgcattatgttaggtatcaaggaagatccattattgcttcaaaagggacatctcttttgataaataaatggagaaattaccttgttaatttgtggcaattttatttttatgtatggtcgcaaccaaaaagaatctatatcaatcaactattaatatcttccttc------tactttatgggttttttttcaagtctaggtcgaaatccttcgatgatacgtagtcaaatgttaaaaaattcatttttaatagaaaatgctattaaaaataaaaagttcgataccctagttccaagtagtactttgattggatcattaacaaaaacgagattatgtaacagcttaggacatcccattagtaagtcggcttgggcccatttttcagattctgagattattaacctatttagtcgtatatggagaagtctttctcattattacantggc---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+        <sequence id="seq_Drosera_filiformis" spec="Sequence" taxon="Drosera_filiformis" totalcount="4" value="----------------------------------------------------------------------------aattatatgttaaatatactgatagcttacccggtccattttgaaatattggttcaaaatcttcgatattgggtgaaagatgccccttctttgcattttttacgattccttatttatgaatatcgtaattggaatagaaagggtcttcttttttcaaagcaattcatttctagtttttcaaaaaggaatcaaagattcgttttatttctatataattcctatctatgtgaatacgaatccatccttctttttcttcgcaaccaatgctatcacttacgatcaaccttttatggagcccttattgagagaatctttttctatggaaagacggaagat------cttgtaaaaggctttcgtaattattttcggataatccgatggtttttccaggatcctttcatgc--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+        <sequence id="seq_Drosera_peltata" spec="Sequence" taxon="Drosera_peltata" totalcount="4" value="atttttagtcaattctcataatttacgatcaattcattcaatctttccatttttcgaggacaaattttctcatttaaattctatgttgaatatattgatagcctaccctgtccatctggagatcttggttcaaactcttcggtattgggtcaaagatgcctcttctttgcattttttacgattccttctttataagtatcgtaattggaatcgaaagggtcttctttttccaaagcaatccatttctagtttttcaaaaaggaatcaaagattctttttctttctatataattcgtatctatgtgaatacgaatccatccttctagttctccgcaaccactcctctcatttacgaccaaccttttatggagcccttcttgagcgagtctctttctatggaaagatggaacat------cttggaaaagactttcggaataattttcagataatccgatggttcttccaggatcctttcatgcattatgttaggtatcaaggaaaatgcattatcgcttcaaaagggacatctcttctgataaataaatggagaaattaccttatcaatttgtggcaattttctttttctgtgtgggcgcaatcaaaacgaatctctatcaatcaactatccaaaatttccttc------aactttatggtttttttttcaagtctacgactaaatccttcgagggtacggagtcaaatggtagaaaattcatttttaatagataatgctat------taaaaagttcgataccttagttccaagtcttcctctgataggatcattgacgaaagcaaagttttctaacggcttaggacatcccattagtaagccgacctggactgatttctcagattctgatattattgaccgatttagtcatatatgcagaagtctttctcattattacagcggatcttcaagaaaaaggagt---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+        <sequence id="seq_Drosera_regia" spec="Sequence" taxon="Drosera_regia" totalcount="4" value="------------------------acgatcaattcattcaatatttccttttttcgaggacaaattttctcatttaaattatatattaaatatactgatagcctaccctgtccatctggaaatattggttcaaactcttcggtattgggtgaaagatgcctcttctttgcatttattacgattccttctttatgagtatcgtaattggaatagaaagagtcttctttttcgaaagcaatccatttctattttttcaaaaaggaatcaaagattatttttgtttctatataattcctatgtgtgtgaatacgaatccatcgttatctttctacgcaaccaatcctctcatttacgatcaaccttttatggagcccttcttgagcgaatctctttctatggaaagatggaacat------cttgtaaaaggctttccgaagaattttcagattatcctatggttcttccaggatcctttcatgcattatgttaggtatcaaggaaaatccattatggcttcaaaagggacatctcttctgataaataaatggagatattaccttatcaatttgtggcaattttatttttctgtgtggtctcaaccaagaagaatctatatcaatcaactattaaaattttccttc------cactttatgggttttctttcaagtctacgactaaatccttcgatggtacgtagtcaaatgttagaaaattcatttttaatagataatgctat------taaaaagttcgataccctagttccaagtattcccctgattggatcattgacgaaagcgaaattttgtaacggcttaggacatcccattagtaaaccggcctgggctgatttatcagattctgatattattgaccgatttggtcgtatatgcagaagtctttctcattattacagcggatcttcaagaaaaaggagtttgtatcgaatacagtatatacttcgactttcttgtgctaaaactttgtcgcgtaaacacaaaagtactgtacatgcttttttgaaacgattaggttcagattttttggaagaattctttacagagg-aagaaaaagttctttctttcattgtaccaagagattcttatatttcacagaagttatatagagtacgtatttggtatttggatattttttgtatccatgatttgtccaa"/>
+        <sequence id="seq_Drosera_rotundifolia" spec="Sequence" taxon="Drosera_rotundifolia" totalcount="4" value="-----------------------------------------------------------------------------------------------------------------------------------------------------------------------tgcattttttacgattccttatttatgaatatcgtaattggaatagaaagggtcttcttttttcaaagcaattcatttctagtttttcaaaaaggaatcaaagattctttttatttctatataattcctatctatgtgaatacgaatccatccttctttttcttcgcaaccaatgctatcacttacgatcaaccttttatggagcccttattgagagaatctttttatatggaaagatggaagat------cttgtaaaaggctgtcgtaagaattttcagataatccgatggtttttccaggatcctttcatgcattatgttaggtatcaaggaagatccattattgcttcaaaagggacatctcttctgataaataaatggagaaattaccttgttaatttgtggcaattttttttttatgtatggtcgcaaccaaaaagaatctatatcaatcaactattaatatcttccttc------tactttatgggttttttttcaagtctagggcgaaatccttcgatgatacggagtcaaatgttaaaaaattcatttttaatagaaaatgctattaaaaataaaaagtttgataccgtagttccaagtagtcctttgattggatcattaacaaaaacgagattatgtaacagcttaggacatcccattagtaagttggcttgggcccatttttcagattctgagattattaaccgatttagtcgtatatgcagaagtatttctcattattacatgggatcttcaagaaaaaggaggttgtatcgaatacag------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+        <sequence id="seq_Drosera_spatulata" spec="Sequence" taxon="Drosera_spatulata" totalcount="4" value="-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------tcatttctattttttcaaaaaggaatcaaagattctttttatttctatataattcctatctatgtgaatacgaatccatccttctttttcttcgcaaccaatgctatcacttacgatcaaccttttatggagccctttttgagagaatctttttctatggaaagatggaagat------cttgtaaaaggctttcgtaagaattttcagataatccgatggtttttccaggatcctttcatgcattatgttaggtatcaaggaagatccattattgcttcaaaagggacatctcttttgataaataaatggagaaattaccttgttaatttgtggcaattttatttttatgtatggtcgcaaccaaaaagaatctatatcaatcaactattaatatcttccttc------tactttatgggttttttttcaagtctaggtcgaaatccttcgatgatacgtagtcaaatgttaaaaaattcatttttaatagaaaatgctattaaaaataaaaagttccataccctagttccaagtagtactttgattggatcattaacaaaaacgagattatgtaacagcttaggacatcccattagtaagtcggcttgggcccatttttcagattctgagattattaacctatttagtcgtatatggagaagtctttctcattattacatgggatcttcaagaagaaggaggttgtatcgaatacagtatatacttcgactttcttgtg--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+        <sequence id="seq_Drosera_tracyi" spec="Sequence" taxon="Drosera_tracyi" totalcount="4" value="-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------tcaaaaaggaatcaaagattctttttatttctatataattcctatctatgtgaatacgaatccatccttctttttcttcgcaaccaatgctatcacttacgatcaaccttttatggagcccttattgagagaatctttttctatggaaagacggaagat------cttgtaaaaggctttcgtaattattttcggataatccgatggtttttccaggatcctttcatgcattatgttaggtatcaaggaagatccattattgcttcaaaagggacatctcttctgataaataaatggagaaattaccttgttaatttgtggcaattttatttttatgtatggtcgcaaccaaaaagaatctatatcaatcaactattaatatcttccttc------tactttatgggttttttttcaagtctagtgcgaaatacttcgatgatacggagtcaaatgttaaacaattcatttttaatagaaaattctattaaaaataaaaggttcgataccgtagttccaagtagtcctttgattggatcattaacaaaaacgagattatgtaacagcttaggacatcccattagtaagttggcttgggcccatttttcagattctgatattattaaccgatttagtcgtatatgcagaagtctttctcattattacatg------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+    </data>
+
+    <map name="Uniform" >beast.base.inference.distribution.Uniform</map>
+
+    <map name="Exponential" >beast.base.inference.distribution.Exponential</map>
+
+    <map name="LogNormal" >beast.base.inference.distribution.LogNormalDistributionModel</map>
+
+    <map name="Normal" >beast.base.inference.distribution.Normal</map>
+
+    <map name="Beta" >beast.base.inference.distribution.Beta</map>
+
+    <map name="Gamma" >beast.base.inference.distribution.Gamma</map>
+
+    <map name="LaplaceDistribution" >beast.base.inference.distribution.LaplaceDistribution</map>
+
+    <map name="prior" >beast.base.inference.distribution.Prior</map>
+
+    <map name="InverseGamma" >beast.base.inference.distribution.InverseGamma</map>
+
+    <map name="OneOnX" >beast.base.inference.distribution.OneOnX</map>
+
+    <run id="mcmc" spec="MCMC" chainLength="10000000">
+        <state id="state" spec="State" storeEvery="5000">
+            <tree id="Tree.t:Drosera_matK_msl" spec="beast.base.evolution.tree.Tree" name="stateNode">
+                <taxonset id="TaxonSet.Drosera_matK_msl" spec="TaxonSet">
+                    <alignment idref="Drosera_matK_msl"/>
+                </taxonset>
+            </tree>
+            <parameter id="birthRate.t:Drosera_matK_msl" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <parameter id="clockRate.c:Drosera_matK_msl" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <parameter id="kappa.s:Drosera_matK_msl" spec="parameter.RealParameter" lower="0.0" name="stateNode">2.0</parameter>
+            <parameter id="freqParameter.s:Drosera_matK_msl" spec="parameter.RealParameter" dimension="4" lower="0.0" name="stateNode" upper="1.0">0.25</parameter>
+        </state>
+        <init id="RandomTree.t:Drosera_matK_msl" spec="RandomTree" estimate="false" initial="@Tree.t:Drosera_matK_msl" taxa="@Drosera_matK_msl">
+            <populationModel id="ConstantPopulation0.t:Drosera_matK_msl" spec="ConstantPopulation">
+                <parameter id="randomPopSize.t:Drosera_matK_msl" spec="parameter.RealParameter" name="popSize">1.0</parameter>
+            </populationModel>
+        </init>
+        <distribution id="posterior" spec="CompoundDistribution">
+            <distribution id="prior" spec="CompoundDistribution">
+                <distribution id="YuleModel.t:Drosera_matK_msl" spec="beast.base.evolution.speciation.YuleModel" birthDiffRate="@birthRate.t:Drosera_matK_msl" tree="@Tree.t:Drosera_matK_msl"/>
+                <prior id="YuleBirthRatePrior.t:Drosera_matK_msl" name="distribution" x="@birthRate.t:Drosera_matK_msl">
+                    <Uniform id="Uniform.1" name="distr" upper="Infinity"/>
+                </prior>
+                <prior id="ClockPrior.c:Drosera_matK_msl" name="distribution" x="@clockRate.c:Drosera_matK_msl">
+                    <Uniform id="Uniform.0" name="distr" upper="Infinity"/>
+                </prior>
+                <prior id="FrequenciesPrior.s:Drosera_matK_msl" name="distribution" x="@freqParameter.s:Drosera_matK_msl">
+                    <distr id="Dirichlet.0" spec="distribution.Dirichlet">
+                        <parameter id="RealParameter.5" spec="parameter.RealParameter" dimension="4" estimate="false" name="alpha">4.0 4.0 4.0 4.0</parameter>
+                    </distr>
+                </prior>
+                <prior id="KappaPrior.s:Drosera_matK_msl" name="distribution" x="@kappa.s:Drosera_matK_msl">
+                    <LogNormal id="LogNormalDistributionModel.1" name="distr">
+                        <parameter id="RealParameter.3" spec="parameter.RealParameter" estimate="false" name="M">1.0</parameter>
+                        <parameter id="RealParameter.4" spec="parameter.RealParameter" estimate="false" name="S">1.25</parameter>
+                    </LogNormal>
+                </prior>
+                <distribution id="Drosera.prior" spec="beast.base.evolution.tree.MRCAPrior" monophyletic="true" tree="@Tree.t:Drosera_matK_msl">
+                    <taxonset id="Drosera" spec="TaxonSet">
+                        <taxon id="Drosera_adelae" spec="Taxon"/>
+                        <taxon id="Drosera_aliciae" spec="Taxon"/>
+                        <taxon id="Drosera_anglica" spec="Taxon"/>
+                        <taxon id="Drosera_binata" spec="Taxon"/>
+                        <taxon id="Drosera_brevifolia" spec="Taxon"/>
+                        <taxon id="Drosera_burmannii" spec="Taxon"/>
+                        <taxon id="Drosera_capensis" spec="Taxon"/>
+                        <taxon id="Drosera_capillaris" spec="Taxon"/>
+                        <taxon id="Drosera_communis" spec="Taxon"/>
+                        <taxon id="Drosera_filiformis" spec="Taxon"/>
+                        <taxon id="Drosera_peltata" spec="Taxon"/>
+                        <taxon id="Drosera_regia" spec="Taxon"/>
+                        <taxon id="Drosera_rotundifolia" spec="Taxon"/>
+                        <taxon id="Drosera_spatulata" spec="Taxon"/>
+                        <taxon id="Drosera_tracyi" spec="Taxon"/>
+                    </taxonset>
+                    <LogNormal id="LogNormalDistributionModel.0" name="distr" offset="53.4">
+                        <parameter id="RealParameter.1" spec="parameter.RealParameter" estimate="false" name="M">2.0</parameter>
+                        <parameter id="RealParameter.2" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S" upper="5.0">0.5</parameter>
+                    </LogNormal>
+                </distribution>
+            </distribution>
+            <distribution id="likelihood" spec="CompoundDistribution" useThreads="true">
+                <distribution id="treeLikelihood.Drosera_matK_msl" spec="ThreadedTreeLikelihood" data="@Drosera_matK_msl" tree="@Tree.t:Drosera_matK_msl">
+                    <siteModel id="SiteModel.s:Drosera_matK_msl" spec="SiteModel">
+                        <parameter id="mutationRate.s:Drosera_matK_msl" spec="parameter.RealParameter" estimate="false" lower="0.0" name="mutationRate">1.0</parameter>
+                        <parameter id="gammaShape.s:Drosera_matK_msl" spec="parameter.RealParameter" estimate="false" lower="0.1" name="shape">1.0</parameter>
+                        <parameter id="proportionInvariant.s:Drosera_matK_msl" spec="parameter.RealParameter" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                        <substModel id="hky.s:Drosera_matK_msl" spec="HKY" kappa="@kappa.s:Drosera_matK_msl">
+                            <frequencies id="estimatedFreqs.s:Drosera_matK_msl" spec="Frequencies" frequencies="@freqParameter.s:Drosera_matK_msl"/>
+                        </substModel>
+                    </siteModel>
+                    <branchRateModel id="StrictClock.c:Drosera_matK_msl" spec="beast.base.evolution.branchratemodel.StrictClockModel" clock.rate="@clockRate.c:Drosera_matK_msl"/>
+                </distribution>
+            </distribution>
+        </distribution>
+        <operator id="YuleBirthRateScaler.t:Drosera_matK_msl" spec="kernel.BactrianScaleOperator" parameter="@birthRate.t:Drosera_matK_msl" upper="10.0" weight="3.0"/>
+        <operator id="YuleModelTreeRootScaler.t:Drosera_matK_msl" spec="kernel.BactrianScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:Drosera_matK_msl" upper="10.0" weight="3.0"/>
+        <operator id="YuleModelUniformOperator.t:Drosera_matK_msl" spec="kernel.BactrianNodeOperator" tree="@Tree.t:Drosera_matK_msl" weight="30.0"/>
+        <operator id="YuleModelSubtreeSlide.t:Drosera_matK_msl" spec="kernel.BactrianSubtreeSlide" tree="@Tree.t:Drosera_matK_msl" weight="15.0"/>
+        <operator id="YuleModelNarrow.t:Drosera_matK_msl" spec="Exchange" tree="@Tree.t:Drosera_matK_msl" weight="15.0"/>
+        <operator id="YuleModelWide.t:Drosera_matK_msl" spec="Exchange" isNarrow="false" tree="@Tree.t:Drosera_matK_msl" weight="3.0"/>
+        <operator id="YuleModelWilsonBalding.t:Drosera_matK_msl" spec="WilsonBalding" tree="@Tree.t:Drosera_matK_msl" weight="3.0"/>
+        <operator id="YuleModelBICEPSEpochTop.t:Drosera_matK_msl" spec="EpochFlexOperator" scaleFactor="0.1" tree="@Tree.t:Drosera_matK_msl" weight="2.0"/>
+        <operator id="YuleModelBICEPSEpochAll.t:Drosera_matK_msl" spec="EpochFlexOperator" fromOldestTipOnly="false" scaleFactor="0.1" tree="@Tree.t:Drosera_matK_msl" weight="2.0"/>
+        <operator id="YuleModelBICEPSTreeFlex.t:Drosera_matK_msl" spec="TreeStretchOperator" scaleFactor="0.01" tree="@Tree.t:Drosera_matK_msl" weight="2.0"/>
+        <operator id="StrictClockRateScaler.c:Drosera_matK_msl" spec="AdaptableOperatorSampler" weight="1.5">
+            <parameter idref="clockRate.c:Drosera_matK_msl"/>
+            <operator id="AVMNOperator.Drosera_matK_msl" spec="kernel.AdaptableVarianceMultivariateNormalOperator" allowNonsense="true" beta="0.05" burnin="400" initial="800" weight="0.1">
+                <transformations id="AVMNSumTransform.Drosera_matK_msl" spec="operator.kernel.Transform$LogConstrainedSumTransform">
+                    <f idref="freqParameter.s:Drosera_matK_msl"/>
+                </transformations>
+                <transformations id="AVMNLogTransform.Drosera_matK_msl" spec="operator.kernel.Transform$LogTransform">
+                    <f idref="clockRate.c:Drosera_matK_msl"/>
+                    <f idref="kappa.s:Drosera_matK_msl"/>
+                </transformations>
+                <transformations id="AVMNNoTransform.Drosera_matK_msl" spec="operator.kernel.Transform$NoTransform">
+                    <f idref="Tree.t:Drosera_matK_msl"/>
+                </transformations>
+            </operator>
+            <operator id="StrictClockRateScalerX.c:Drosera_matK_msl" spec="kernel.BactrianScaleOperator" parameter="@clockRate.c:Drosera_matK_msl" upper="10.0" weight="3.0"/>
+        </operator>
+        <operator id="strictClockUpDownOperator.c:Drosera_matK_msl" spec="AdaptableOperatorSampler" weight="1.5">
+            <parameter idref="clockRate.c:Drosera_matK_msl"/>
+            <tree idref="Tree.t:Drosera_matK_msl"/>
+            <operator idref="AVMNOperator.Drosera_matK_msl"/>
+            <operator id="strictClockUpDownOperatorX.c:Drosera_matK_msl" spec="operator.kernel.BactrianUpDownOperator" scaleFactor="0.75" weight="3.0">
+                <up idref="clockRate.c:Drosera_matK_msl"/>
+                <down idref="Tree.t:Drosera_matK_msl"/>
+            </operator>
+        </operator>
+        <operator id="KappaScaler.s:Drosera_matK_msl" spec="AdaptableOperatorSampler" weight="0.05">
+            <parameter idref="kappa.s:Drosera_matK_msl"/>
+            <operator idref="AVMNOperator.Drosera_matK_msl"/>
+            <operator id="KappaScalerX.s:Drosera_matK_msl" spec="kernel.BactrianScaleOperator" parameter="@kappa.s:Drosera_matK_msl" scaleFactor="0.1" upper="10.0" weight="0.1"/>
+        </operator>
+        <operator id="FrequenciesExchanger.s:Drosera_matK_msl" spec="AdaptableOperatorSampler" weight="0.05">
+            <parameter idref="freqParameter.s:Drosera_matK_msl"/>
+            <operator idref="AVMNOperator.Drosera_matK_msl"/>
+            <operator id="FrequenciesExchangerX.s:Drosera_matK_msl" spec="operator.kernel.BactrianDeltaExchangeOperator" delta="0.01" weight="0.1">
+                <parameter idref="freqParameter.s:Drosera_matK_msl"/>
+            </operator>
+        </operator>
+        <logger id="tracelog" spec="Logger" fileName="$(filebase).log" logEvery="1000" model="@posterior" sanitiseHeaders="true" sort="smart">
+            <log idref="posterior"/>
+            <log idref="likelihood"/>
+            <log idref="prior"/>
+            <log idref="treeLikelihood.Drosera_matK_msl"/>
+            <log id="TreeHeight.t:Drosera_matK_msl" spec="beast.base.evolution.tree.TreeStatLogger" tree="@Tree.t:Drosera_matK_msl"/>
+            <log idref="YuleModel.t:Drosera_matK_msl"/>
+            <log idref="birthRate.t:Drosera_matK_msl"/>
+            <log idref="Drosera.prior"/>
+            <log idref="clockRate.c:Drosera_matK_msl"/>
+            <log idref="kappa.s:Drosera_matK_msl"/>
+            <log idref="freqParameter.s:Drosera_matK_msl"/>
+        </logger>
+        <logger id="screenlog" spec="Logger" logEvery="1000">
+            <log idref="posterior"/>
+            <log idref="likelihood"/>
+            <log idref="prior"/>
+        </logger>
+        <logger id="treelog.t:Drosera_matK_msl" spec="Logger" fileName="$(filebase)-$(tree).trees" logEvery="1000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:Drosera_matK_msl" spec="beast.base.evolution.TreeWithMetaDataLogger" tree="@Tree.t:Drosera_matK_msl"/>
+        </logger>
+        <operatorschedule id="OperatorSchedule" spec="OperatorSchedule"/>
+    </run>
+
+</beast>
